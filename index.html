@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Weather Forecast</title>
+  <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+  <header>
+<h1>🌤 Live Weather Forecast</h1>
+  <input type="text" id="cityInput" placeholder="Enter city name...">
+  <button onclick="getWeather()">Search</button>
+  <button id="darkModeToggle">🌙 Dark Mode</button>
+  </header>
+
+  <main>
+    <section id="currentWeather"></section>
+    <section id="forecast"></section>
+  </main>
+
+  <footer>
+    <p>Powered by OpenWeatherMap API</p>
+  </footer>
+
+  <script src="weather.js"></script>
+</body>
+</html>

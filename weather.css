@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+body.dark-mode {
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: #e0e0e0;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #607d8b;
+  color: #fff;
+  cursor: pointer;
+}
+
+body.dark-mode button {
+  background: #ff9800;
+  color: #fff;
+}
+
+.card {
+  background: rgba(255,255,255,0.2);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+body.dark-mode .card {
+  background: rgba(0,0,0,0.4);
+}
